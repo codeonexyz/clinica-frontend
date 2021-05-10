@@ -1,0 +1,56 @@
+.visit-display-card {
+	border: 1px solid #D8D8D8;
+	background-color: #F7F7F7;
+	border-radius: 4px;
+	margin: 6px;
+	padding: 6px;
+	position: relative;
+}
+
+.visit-display-card > img {
+	width: 46px;
+	height: 46px;
+}
+
+.visit-display-card .name {
+	position: absolute;
+	top: 8px;
+	left: 62px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #1084D6;
+}
+
+.visit-display-card .date {
+	position: absolute;
+	top: 28px;
+	left: 62px;
+	font-size: 12px;
+	color: #949494;
+}
+
+.visit-display-card .specialty {
+	position: absolute;
+	top: 28px;
+	left: 62px;
+	font-size: 12px;
+	color: #949494;
+}
+
+.visit-display-card .btn-accept {
+	position: absolute;
+	top: 14px;
+	right: 90px;
+}
+
+.visit-display-card .btn-reject {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+}
+
+.visit-display-card .dropdown {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+}

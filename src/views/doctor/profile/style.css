@@ -1,0 +1,19 @@
+.profile-info {
+	list-style: none;
+	position: absolute;
+	top: 34px;
+	left: 126px;
+	margin: 0;
+	padding: 0;
+}
+
+.profile-info li {
+	color: steelblue;
+	font-size: 12px;
+}
+
+.visit-request-btn {
+	position: absolute;
+	top: 80px;
+	left: 126px;
+}

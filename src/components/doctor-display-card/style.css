@@ -1,0 +1,32 @@
+.doctor-disp-card {
+	border: 1px solid #D8D8D8;
+	background-color: #F7F7F7;
+	border-radius: 4px;
+	margin: 6px;
+	padding: 6px;
+	position: relative;
+}
+
+.doctor-disp-card img {
+	width: 84px;
+}
+
+.doctor-disp-card span.name {
+	position: absolute;
+	top: 14px;
+	left: 100px;
+}
+
+.doctor-disp-card span.specialty {
+	position: absolute;
+	top: 36px;
+	left: 100px;
+	font-size: 12px;
+	color: blue;
+}
+
+.doctor-disp-card .visit-btn {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}

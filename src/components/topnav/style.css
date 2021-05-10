@@ -1,0 +1,28 @@
+.topnav {
+	background-color: #21364D;
+	border-bottom: 2px solid cadetblue;
+}
+
+.topnav .dropdown-menu .fa-caret-up {
+	position: absolute;
+	top: -12px;
+	right: 8px;
+	color: white;
+	font-size: 20px;
+}
+
+.topnav .notification {
+	position: relative;
+	margin-right: 16px;
+}
+
+.topnav .notification .badge {
+	position: absolute;
+	top: -2px;
+	left: -4px;
+}
+
+.topnav .visits-dropdown > .dropdown-menu {
+	width: 500px;
+	padding: 6px;
+}

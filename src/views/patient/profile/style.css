@@ -1,0 +1,13 @@
+.joined-date {
+	position: absolute;
+	top: 34px;
+	left: 126px;
+	color: steelblue;
+	font-size: 12px;
+}
+
+.find-doctors-btn {
+	position: absolute;
+	top: 80px;
+	left: 126px;
+}

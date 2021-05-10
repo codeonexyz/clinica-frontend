@@ -1,0 +1,61 @@
+@import "./default.css";
+
+body {
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("../images/patterns/dark-honeycomb.png");
+  background-repeat: repeat;
+
+  padding: 70px 10px 10px 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.tab-pane {
+  padding: 20px;
+}
+
+.nav-tabs .nav-item {
+  cursor: pointer;
+  font-weight: bold;
+} 
+
+.nav-tabs .nav-item.first-item {
+  margin-left: 6px;
+} 
+
+.card.profile .card-header {
+  margin: 0;
+  padding: 6px;
+}
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+}
+
+.profile-name {
+  position: absolute;
+  top: 6px;
+  left: 126px;
+}
+
+.card.profile .card-body {
+  margin: 0;
+  padding: 0;
+  padding-top: 6px;
+}
+
+.profile-logout-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}

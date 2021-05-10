@@ -1,0 +1,68 @@
+.diagnosis-disp-card img {
+	width: 52px;
+}
+
+.diagnosis-disp-card div.doctor-to-patient {
+	position: absolute;
+	top: 6px;
+	left: 64px;
+	color: dodgerblue;
+	font-size: 16px;
+}
+
+.diagnosis-disp-card div.doctor-to-patient span.doctor-name {
+	
+}
+
+.diagnosis-disp-card div.doctor-to-patient span.patient-name {
+	
+}
+
+.diagnosis-disp-card div.doctor-to-patient i.caret {
+	font-size: 16px;
+}
+
+.diagnosis-disp-card span.date {
+	position: absolute;
+	top: 30px;
+	left: 64px;
+	font-size: 11px
+}
+
+.diagnosis-disp-card .dropdown {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+.diagnosis-disp-card .dropdown > span {
+	color: #63A2E8;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.diagnosis-disp-card .dropdown > span:hover {
+	color: #007ACD;
+}
+
+.diagnosis-disp-card .card-footer {
+	margin: 0;
+	padding: 6px;
+	padding-left: 13px;
+	position: relative;
+}
+
+.diagnosis-disp-card .card-footer span {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: cornflowerblue;
+}
+
+.diagnosis-disp-card .card-footer span.open-disgnosis-btn {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	cursor: pointer;
+	color: crimson;
+}

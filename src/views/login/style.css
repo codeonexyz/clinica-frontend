@@ -1,0 +1,7 @@
+@media (min-width: 992px) {
+	.card.login {
+	    max-width: 480px;
+	    margin: 0 auto;
+	    margin-top: 160px;
+	}
+}

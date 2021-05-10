@@ -1,0 +1,61 @@
+.patient-disp-card {
+	border: 1px solid #D8D8D8;
+	background-color: #F7F7F7;
+	border-radius: 4px;
+	margin: 0;
+	padding: 6px;
+	position: relative;
+}
+
+.patient-disp-card img {
+	width: 86px;
+	height: 86px;
+}
+
+.patient-disp-card .name {
+	position: absolute;
+	top: 12px;
+	left: 106px;
+	border: 0px solid red;
+	font-size: 16px;
+    font-weight: bold;
+    color: #007ACD;
+}
+
+.patient-disp-card span.visit-date {
+	position: absolute;
+	top: 36px;
+	left: 106px;
+	font-size: 12px;
+	color: #0D0208;
+}
+
+.view-diagnosis-btn {
+	position: absolute;
+	top: 58px;
+	left: 106px;
+	font-size: 12px;	
+}
+
+.visit-profile-btn {
+	position: absolute;
+	top: 58px;
+	left: 200px;
+	font-size: 12px;	
+}
+
+.patient-disp-card .dropdown {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+.patient-disp-card .dropdown > span {
+	color: #63A2E8;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.patient-disp-card .dropdown > span:hover {
+	color: #007ACD;
+}

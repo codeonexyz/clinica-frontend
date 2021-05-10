@@ -1,0 +1,6 @@
+.loading {
+	background-image: url("../../assets/images/patterns/dark-honeycomb.png");
+  	background-repeat: repeat;
+	height: 100vh;
+}
+
